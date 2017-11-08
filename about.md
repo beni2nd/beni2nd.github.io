@@ -11,3 +11,4 @@ permalink: /about/
 
 Freelance<br>
 Osaka, Japan
+<a target="_blank" href="http://com.nicovideo.jp/community/co1136215">ニコニコ生放送の筆者コミュニティへ</a>
