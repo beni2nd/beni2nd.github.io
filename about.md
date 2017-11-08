@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: 筆者について
 permalink: /about/
 ---
 
-Some information about you!
+モバイルガジェットのレビューや情報共有、個人的メモが主な目的で運営しています。 
+元NTTグループのインフラシステムエンジニアです。
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Freelance
+Osaka, Japan
