@@ -8,5 +8,4 @@ permalink: /about/
 元NTTグループのインフラシステムエンジニアです。
 
 Freelance
-
 Osaka, Japan
