@@ -85,4 +85,4 @@ exclude:
   - CNAME
 
 # Pagenation
-paginate: 65535
+paginate: 10
