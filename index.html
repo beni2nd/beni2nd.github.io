@@ -2,17 +2,36 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
+<div class="contents front-page">
+  <div class="container">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <!-- 記事一覧 -->
+    {% for post in paginator.posts %}
+      <article class="archive">
+        <h2 class="archive__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="archive__date"><time>{{ post.date | date: '%B %d, %Y' }}</time></p>
+        <div class="archive__excerpt">{{ post.excerpt }}</div>
+      </article>
+    {% endfor %}
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <!-- ページネーション -->
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+        {% if paginator.previous_page %}
+          <a class="pagination__item" href="{{ paginator.previous_page_path | relative_url }}">&lt; 前のページ</a>
+        {% endif %}
+
+        <span class="pagination__item pagination__number">
+          {{ paginator.page }} / {{ paginator.total_pages }}
+        </span>
+
+        {% if paginator.next_page %}
+          <a class="pagination__item" href="{{ paginator.next_page_path | relative_url }}">次のページ &gt;</a>
+        {% endif %}
+
+      </div><!--pagination-->
+    {% endif %}
+
+  </div><!--container-->
+</div><!--main-->
