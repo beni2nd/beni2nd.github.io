@@ -16,3 +16,55 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<!-- This loops through the paginated posts -->
+<div>
+  <ul class="list-group">
+    {% for post in paginator.posts %}
+      <li class="list-group-item">
+        <a href="{{ post.url }}">
+	  <h3 class="list-group-item-heading">{{ post.title }}</h3>
+	  {{ post.date | date_to_string }}
+        </a>
+        {{ post.content }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div>
+  <!-- Pagination links -->
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li><a href="{{site.url}}/blog/" class="previous"><span>&laquo;</span></a></li>
+      {% else %}
+        <li>
+	  <a href="{{site.url}}/blog/page{{ paginator.previous_page }}" class="previous">
+	    <span>&laquo;</span>
+	  </a>
+	</li>
+      {% endif %}
+    {% else %}
+      <li class="disabled"><span>&laquo;</span></li>
+    {% endif %}
+    {% for count in (1..paginator.total_pages) %}
+      {% if count == paginator.page %}
+        {% assign active = 'class="active"' %}
+      {% else %}
+        {% assign active = '' %}
+      {% endif %}
+      {% if count == 1 %}
+        <li {{ active }}><a href="{{site.url}}/blog/">{{ count }}<span class="sr-only">(current)</span></a></li>
+      {% else %}
+        <li {{ active }}>
+	  <a href="{{site.url}}/blog/page{{ count }}">{{ count }}<span class="sr-only">(current)</span></a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page and paginator.next_page != paginator.page %}
+      <li><a href="{{site.url}}/blog/page{{ paginator.next_page }}" class="next"><span>&raquo;</span></a></li>
+    {% else %}
+      <li class="disabled"><span>&raquo;</span></li>
+    {% endif %}
+  </ul>
+</div>
