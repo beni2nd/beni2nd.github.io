@@ -87,4 +87,4 @@ exclude:
 
 # Pagenation
 paginate: 3
-paginate_path: "page:num"
+paginate_path: "posts:num"
