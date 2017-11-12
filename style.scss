@@ -284,7 +284,7 @@ footer {
 }
 
 .pagination{
-  @include pad();
+  @include padding();
   display: flex;
   flex-wrap: wrap;
 
