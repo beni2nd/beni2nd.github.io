@@ -6,7 +6,7 @@
 name: べにのガジェットブログ
 
 # Short bio or description (displayed in the header)
-description: スマホなどのモバイルガジェットのレビューや情報共有、個人的メモが主な目的で運営しています。
+description: スマホなどのモバイルガジェット、格安SIMのレビューや情報共有、個人的メモが主な目的で運営しています。
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://beni2nd.github.io/images/yamine.jpg
@@ -87,5 +87,5 @@ exclude:
   - CNAME
 
 # Pagenation
-# paginate: 5
-# paginate_path: "page:num"
+paginate: 5
+paginate_path: "page:num"
