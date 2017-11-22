@@ -26,7 +26,7 @@ layout: default
 
 <!-- Pagination links -->
 <center>
-<!--{% if paginator.total_pages > 1 %}-->
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; 新しい記事</a>
@@ -34,7 +34,7 @@ layout: default
     <span>&laquo; 新しい記事</span>
   {% endif %}
 
-  <!--{% for page in (1..paginator.total_pages) %}-->
+  {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
@@ -42,7 +42,7 @@ layout: default
     {% else %}
       <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
-  <!--{% endfor %}-->
+  {% endfor %}
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | replace: '//', '/' }}">古い記事 &raquo;</a>
@@ -50,7 +50,7 @@ layout: default
     <span>古い記事 &raquo;</span>
   {% endif %}
 </div>
-<!--{% endif %}-->
+{% endif %}
 </center>
 
 <!-- Pagination links -->
