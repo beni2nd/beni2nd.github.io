@@ -87,5 +87,5 @@ exclude:
   - CNAME
 
 # Pagenation
-pagenate: 5
+pagenate: 3
 pagenate_path: "page:num"
