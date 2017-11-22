@@ -17,7 +17,7 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
+      <div class="grid" id="searchBar">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -35,12 +35,12 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="grid" id="searchBar">
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div class="grid" id="searchBar">
         <footer class="footer">
           {% include svg-icons.html %}
           <br>
