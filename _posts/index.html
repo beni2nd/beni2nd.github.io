@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <div class="date">
+        <br />
+        Written on {{ post.date | date: "%Y, %m, %d" }}
+      </div>
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}"><font color = blue>{{ post.title }}</font></a></h1>
+
+      <div class="entry">
+        {{ post.content | truncatewords:6}}
+        <!--{{ post.content }}-->
+      </div>
+
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<center>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">&laquo; 新しい記事</a>
+  {% else %}
+    <span>&laquo; 新しい記事</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | replace: '//', '/' }}">古い記事 &raquo;</a>
+  {% else %}
+    <span>古い記事 &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+</center>
+
+<!-- Pagination links -->
+<!--<div class="pagination">-->
+<!--  {% if paginator.previous_page %}-->
+<!--    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>-->
+<!--  {% else %}-->
+<!--    <span class="previous">Previous</span>-->
+<!--  {% endif %}-->
+<!--  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>-->
+<!--  {% if paginator.next_page %}-->
+<!--    <a href="{{ paginator.next_page_path }}" class="next">Next</a>-->
+<!--  {% else %}-->
+<!--    <span class="next ">Next</span>-->
+<!--  {% endif %}-->
+<!--</div>-->
