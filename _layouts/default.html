@@ -17,7 +17,7 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="grid" id="searchBar">
+      <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -35,12 +35,12 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="grid" id="searchBar">
+    <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="grid" id="searchBar">
+      <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
           <br>
@@ -48,27 +48,7 @@
         </footer>
       </div>
     </div>
-    
-<div class="grid" id="searchBar">
-      <div>
-          <div id="search">
-              <form role="search" method="get" action="{{ site.baseurl }}//search/">
-                  <input id="searchString" name="searchString"
-                         placeholder="Learn Ionic, Be a Better Developer, etc." type="text">
-                  <input id="searchButton" name="googleSearchName" type="button" value="Search">
-              </form>
-          </div>
 
-          <div id="archives">
-              browse by <a title="The complete archive of {{ site.name }}'s Blog by category"
-                     href="{{ site.baseurl }}//categoryview">category</a>
-              or <a title="The complete archive of {{ site.name }}'s Blog by month"
-                    href="{{ site.baseurl }}//monthview">date</a>
-          </div>
-      </div>
-  </div>
-    
     {% include analytics.html %}
   </body>
 </html>
-
