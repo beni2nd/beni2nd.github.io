@@ -1,4 +1,4 @@
-#Monacoin local.conf on beni2nd.github.io
+#Monacoin Rig01 local.conf on beni2nd.github.io
 globalminer ccminer
 ccminer=flags -a lyra2v2
 maxgputemp 85
