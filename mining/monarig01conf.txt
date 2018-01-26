@@ -1,7 +1,7 @@
 #Monacoin Rig01 local.conf on beni2nd.github.io
 globalminer ccminer
 ccminer=flags -a lyra2v2
-maxgputemp 90
+maxgputemp 100
 stratumproxy enabled
 proxywallet MK1sGV63kiVMp2JhL7bJNMg4SCRPonbt9a
 proxypool1 vippool.net:8888 -u beni2nd.018b14 -p
