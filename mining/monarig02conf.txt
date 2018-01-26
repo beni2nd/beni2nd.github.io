@@ -11,3 +11,10 @@ proxypool2 stratum.vippool.net:8888 -u beni2nd.00f100 -p
 poolpass2 05080508a
 globalfan 100
 autoreboot 8
+
+# Palit geforce gtx 1080 jetstream
+# 86.04.60.00.48
+# [type] [bios name] [value]
+# ——————————————————
+pwr 86.04.60.00.48 90
+# ——————————————————
