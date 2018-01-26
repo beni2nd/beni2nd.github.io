@@ -10,3 +10,10 @@ proxypool2 stratum.vippool.net:8888 -u beni2nd.018b14 -p
 poolpass2 05080508a
 globalfan 100
 autoreboot 8
+
+# MSI geforce gtx 1070
+# 86.04.50.00.2C
+# [type] [bios name] [value]
+# ——————————————————
+pwr 86.04.50.00.2C 90
+# ——————————————————
