@@ -6,10 +6,7 @@ layout: default
   {% for post in paginator.posts %}
     <article class="post">
 
-      <div class="date">
-        <br />
-        Written on {{ post.date | date: "%Y, %m, %d" }}
-      </div>
+
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}"><font color = blue>{{ post.title }}</font></a></h1>
 
@@ -17,6 +14,13 @@ layout: default
         {{ post.content | truncatewords:6}}
         <!--{{ post.content }}-->
       </div>
+      
+      
+      <div class="date">
+        <br />
+        Written on {{ post.date | date: "%Y, %m, %d" }}
+      </div>
+
 
       <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
