@@ -16,7 +16,7 @@ Leica M3/IIIf、Rollei35S、Natura Classica、Rolleiflex、BronicaS2、α7II、L
 たびたびニコニコ生放送で自由気ままに配信しています。  
 Twitterフォロー(ページ下のアイコンから)やニコニコミュニティ参加、YouTubeチャンネル登録もお気軽にお願いします。    
   
-[ニコニコ生放送の筆者コミュニティへ](http://com.nicovideo.jp/community/co1136215/)  
+[ニコニコ生放送の筆者コミュニティへ](http://com.nicovideo.jp/community/co1136215/ target = blank)  
 [筆者の日々の生態を確認したり、戯れたい方はこちら](https://com.nicovideo.jp/community/co1279918) (申請時に「ブログ(Twitter)から」、と一言お書き添えください)  
 [べにのガジェットチャンネル](https://www.youtube.com/channel/UCNB0qhd4sjygz6JY-g4uBHg) (YouTubeチャンネル)  
 
