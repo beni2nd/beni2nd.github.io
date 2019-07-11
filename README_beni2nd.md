@@ -9,7 +9,7 @@ beni2nd.github.io
 わずか数分でブログが作れることをキャッチフレーズにしている[Jekyll Now](https://github.com/barryclark/jekyll-now)ですが、デフォルトでは最小限の機能しか用意されていないため
 
 1. Twitterのシェアボタン
-2. ページ切り替え機能
+2. ページ切り替え機能（ページネーション）
 3. アーカイブページ
 
 を追加して使っています([カスタマイズ例](http://beni2nd.github.io/))。
