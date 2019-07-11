@@ -6,7 +6,7 @@ permalink: /about/
 ---
 Author : べに  
 三度の飯よりフィルムカメラ、デジタルカメラ、オールドレンズ、スマートフォン、タブレット、ポータブルオーディオ、IoT機器等のモバイルガジェットやPCが好きです。  
-Leica M3/IIIf、Rollei35S、Natura Classica、Rolleiflex、BronicaS2、α7II、LM-EA7、GR他多数。  
+Leica M3/IIIf、Rollei35S、Natura Classica、Rolleiflex、BronicaS2、α7II、LM-EA7、GR、G7X、G1Xm2他多数。  
 レンズは現行含め120本突破致しました。  
 気まぐれで黒白・カラー自家現像しています。  
 シャッターテスターございます。  
