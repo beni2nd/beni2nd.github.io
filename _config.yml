@@ -27,7 +27,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: beni_2nd
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: UCNB0qhd4sjygz6JY-g4uBHg
   googleplus: u/0/118347911520313735779
 
 
@@ -89,6 +89,6 @@ exclude:
 
 # Pagenation
 # Specify how many items should be displayed per page
-paginate: 5
+paginate: 10
 # Specify the destination of the pagination pages
 paginate_path: /page:num/
