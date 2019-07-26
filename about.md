@@ -16,8 +16,8 @@ Leica M3/IIIf、Rollei35S、Natura Classica、Rolleiflex、BronicaS2、α7II、L
 たびたびニコニコ生放送で自由気ままに配信しています。  
 Twitterフォロー(ページ下のアイコンから)やニコニコミュニティ参加、YouTubeチャンネル登録もお気軽にお願いします。    
   
-[ニコニコ生放送の筆者コミュニティへ](http://com.nicovideo.jp/community/co1136215/)  
 [筆者の日々の生態を確認したり、戯れたい方はこちら](https://com.nicovideo.jp/community/co1279918) (申請時に「ブログ(Twitter)から」、と一言お書き添えください)  
+[ニコニコ生放送の筆者コミュニティその2へ](http://com.nicovideo.jp/community/co1136215/)  
 [べにのガジェットチャンネル](https://www.youtube.com/channel/UCNB0qhd4sjygz6JY-g4uBHg) (YouTubeチャンネル)  
 
 [<img src="https://blog.with2.net/img/banner/c/banner_1/br_c_1919_1.gif" title="銀塩写真ランキング">](////blog.with2.net/link/?1941652:1919)  
