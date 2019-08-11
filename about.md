@@ -6,7 +6,7 @@ permalink: /about/
 ---
 【Author : べに】  
 三度の飯よりフィルムカメラ、デジタルカメラ、オールドレンズ、スマートフォン、タブレット、ポータブルオーディオ、IoT機器等のモバイルガジェットやPCが好きです。  
-Leica M3/IIIf、コピーライカ数台、Contax IIa/IIIa、Ikonta Super Six III、セミイコンタ数台、CONTESSA5台、Rollei35S、Natura Classica、OLYMPUS μ、Rolleiflex、BronicaS2、α7II、LM-EA7、MC-11、5Dm2、EOS M2、GX7、NEX5台、GR、G7X、G1Xm2、他多数。  
+Leica M8/M3/IIIf、コピーライカ数台、Contax IIa/IIIa、Ikonta Super Six III、セミイコンタ数台、CONTESSA5台、AUTOREX、Rollei35S、Natura Classica、OLYMPUS μ、Rolleiflex、BronicaS2、α7II、LM-EA7、MC-11、5Dm2、EOS M2、GX7、NEX5台、GR、G7X、G1Xm2、RX100、他多数。  
 レンズは現行含め120本突破致しました。  
 気まぐれで黒白・カラー自家現像しています。  
 ルーマニアから買ったシャッターテスターございます。  
